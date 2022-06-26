@@ -61,7 +61,7 @@ function Home() {
                 <FaTelegramPlane />
               </Button>
             </Link>
-            <a href='https://resume.kumarsambhav.me/' target={'_blank'}>
+            <a href='https://resume.kumarsambhav.me/' rel="noreferrer" target={'_blank'}>
               <Button text="Resume" path="">
                 <IoIosPaper />
               </Button>
