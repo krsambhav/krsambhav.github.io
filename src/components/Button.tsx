@@ -1,7 +1,7 @@
 import React, { ReactElement } from "react";
 import {useLocation} from 'react-router-dom';
 
-function Button({ text, path, children, onClick }: { text: string, path: string, children:ReactElement, onClick?: any }) {
+function Button({ text, path, children, onClick }: { text: string, path?: string, children:ReactElement, onClick?: any }) {
   const currentLocation = useLocation().pathname;
   return (
     <div

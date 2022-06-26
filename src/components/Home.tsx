@@ -10,9 +10,9 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Footer from "./Footer";
 import { SiMailchimp } from "react-icons/si";
 import { BsCodeSlash, BsPerson } from "react-icons/bs";
-import { IoMdContact } from "react-icons/io";
+import { IoIosPaper, IoMdContact } from "react-icons/io";
 import Button from "./Button";
-import { FaTelegramPlane } from "react-icons/fa";
+import { FaPersonBooth, FaTelegramPlane } from "react-icons/fa";
 
 function Home() {
   const currentTime = new Date().getHours();
@@ -61,6 +61,11 @@ function Home() {
                 <FaTelegramPlane />
               </Button>
             </Link>
+            <a href='https://resume.kumarsambhav.me/' target={'_blank'}>
+              <Button text="Resume" path="">
+                <IoIosPaper />
+              </Button>
+            </a>
           </div>
         </FadeIn>
       </div>
