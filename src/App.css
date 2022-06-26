@@ -1,0 +1,33 @@
+@keyframes reactRotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.project:hover .react-icon {
+  animation: reactRotate 3s linear infinite;
+}
+.footer:hover .react-icon {
+  animation: reactRotate 3s linear reverse infinite;
+}
+
+.dark {
+  background-color: #151515;
+  color: white;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 300ms;
+}
+
+.light .project {
+  background-color: white;
+  color: black;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 300ms;
+}
+.project{
+  font-weight: 300;
+}
