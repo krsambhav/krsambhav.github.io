@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 import { CgMenuRightAlt } from "react-icons/cg";
 import { SiMailchimp, SiTelegram } from "react-icons/si";
 import { BsCodeSlash, BsPerson } from "react-icons/bs";
-import { IoMdContact } from "react-icons/io";
+import { IoIosPaper, IoMdContact } from "react-icons/io";
 import { VscHome } from "react-icons/vsc";
 import Button from "./Button";
 import { RiCloseLine } from "react-icons/ri";
@@ -45,6 +45,11 @@ function Header() {
                 <FaTelegramPlane />
               </Button>
             </Link>
+            <a href="https://resume.kumarsambhav.me/" rel="noreferrer" target='_blank'>
+              <Button text="Resume">
+                <IoIosPaper />
+              </Button>
+              </a>
           </div>
           <FadeIn className="md:hidden" delay={3000} >
           <div className="mobile-nav-btn md:hidden text-3xl" onClick={handleNavClick}>
@@ -84,6 +89,13 @@ function Header() {
                 {<FaTelegramPlane/>}
               </Button>
           </Link>
+            </div>
+            <div className="mobile-nav-child w-[85vw] flex flex-row justify-center text-2xl">
+          <a href="https://resume.kumarsambhav.me/" rel='noreferrer' target="_blank">
+              <Button text="Resume">
+                {<IoIosPaper/>}
+              </Button>
+          </a>
             </div>
         </div>
       )}
