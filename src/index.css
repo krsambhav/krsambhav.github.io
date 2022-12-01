@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&family=Titillium+Web:wght@200&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/mortezaom/google-sans-cdn@master/fonts.css');
 
 *{
-  font-family: 'Poppins';
+  font-family: 'Product Sans';
 }
