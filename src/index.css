@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://cdn.jsdelivr.net/gh/mortezaom/google-sans-cdn@master/fonts.css');
+@font-face {
+  font-family: 'Product Sans';
+  src: url('../public/assets/fonts/ProductSans-Regular.ttf');
+}
+
 
 *{
   font-family: 'Product Sans';
